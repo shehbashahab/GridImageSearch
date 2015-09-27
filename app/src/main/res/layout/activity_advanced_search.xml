@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSizeFilterLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/label_size_filter"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sizeSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/array_size"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/tvColorFilterLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/label_color_filter"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/colorSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/array_color"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/tvImageTypeFilterLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/label_image_type_filter"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/imageTypeSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/array_image_type"
+            android:padding="5dp"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/tvSiteFilterLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/label_site_filter"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etSiteFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="abc.com"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="backToGrid"
+        android:text="@string/action_save" />
+
+
+</LinearLayout>

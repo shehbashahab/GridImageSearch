@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Google Image Search</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_prompt">Enter search query</string>
+    <string name="search_label">Search</string>
+    <string name="image_title_label">Image Title</string>
+    <string name="title_activity_image_display">Full Image</string>
+    <string name="title_activity_advanced_display">Advanced Search Options</string>
+    <string name="label_size_filter">Image Size:</string>
+    <string name="label_color_filter">Color:</string>
+    <string name="label_image_type_filter">Image Type:</string>
+    <string name="label_site_filter">Site:</string>
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+
+    <string-array name="array_size">
+        <item />
+        <item>icon</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>xlarge</item>
+        <item>xxlarge</item>
+        <item>huge</item>
+    </string-array>
+
+    <string-array name="array_color">
+        <item />
+        <item>black</item>
+        <item>blue</item>
+        <item>brown</item>
+        <item>gray</item>
+        <item>green</item>
+        <item>orange</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>red</item>
+        <item>teal</item>
+        <item>white</item>
+        <item>yellow</item>
+    </string-array>
+
+    <string-array name="array_image_type">
+        <item />
+        <item>face</item>
+        <item>photo</item>
+        <item>clipart</item>
+        <item>lineart</item>
+
+    </string-array>
+
+
+</resources>
