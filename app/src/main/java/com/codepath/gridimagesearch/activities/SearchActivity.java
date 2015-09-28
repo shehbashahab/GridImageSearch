@@ -138,14 +138,12 @@ public class SearchActivity extends AppCompatActivity {
 
         if (!sizeFilter.isEmpty()) {
             optionalParms = optionalParms.concat("&imgsz=" + sizeFilter);
-        } else if (!colorFilter.isEmpty()) {
+        } if (!colorFilter.isEmpty()) {
             optionalParms = optionalParms.concat("&imgcolor=" + colorFilter);
-        } else if (!typeFilter.isEmpty()) {
+        } if (!typeFilter.isEmpty()) {
             optionalParms = optionalParms.concat("&imgtype=" + typeFilter);
-        } else if (!siteFilter.isEmpty()) {
+        }  if (!siteFilter.isEmpty()) {
             optionalParms = optionalParms.concat("&imgtype=" + siteFilter);
-        } else {
-            Log.d("DEBUG", "Code should not reach this point.");
         }
 
         Log.d("DEBUG", "Optional Parms: " + optionalParms);
